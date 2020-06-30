@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SectionSixUdemyProject</string>
-    <string name="cateogory">Cateogory</string>
+    <string name="cateogory">Category</string>
     <string name="see_all_products">See All Products!</string>
 </resources>

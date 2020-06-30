@@ -9,12 +9,16 @@
 
     <ImageView
         android:id="@+id/categoryImageView"
-        android:layout_width="match_parent"
-        android:layout_height="162dp"
+        android:layout_width="400dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="16dp"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:srcCompat="@drawable/digitalgoodsimage" />
 
     <TextView
@@ -23,13 +27,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/categoryImageView"
         tools:text="Digital Goods" />
