@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    tools:context=".controllers.MainActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/categoryTxtFld"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_width="215dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="36dp"
         android:text="@string/cateogory"
-        android:textSize="24sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/cartProductsImageButton"
-        android:layout_width="65dp"
-        android:layout_height="54dp"
+        android:layout_width="114dp"
+        android:layout_height="105dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +34,7 @@
         android:id="@+id/categoryRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="195dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,14 +43,15 @@
 
     <Button
         android:id="@+id/seeAllProductsButton"
-        android:layout_width="83dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="184dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="#0066cc"
         android:text="@string/see_all_products"
         android:textColor="@color/colorAccent"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
